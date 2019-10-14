@@ -1,4 +1,4 @@
 def alphabetize(arr)
   # code here
-  arr
+  arr.sort_by()
 end
