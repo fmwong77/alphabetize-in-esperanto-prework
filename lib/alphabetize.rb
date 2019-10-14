@@ -1,4 +1,9 @@
 def alphabetize(arr)
-  # code here
-  arr.sort_by {|word| word[0]}
+  
+  arr.sort_by do |word|
+  puts word
+    word.split('').collect do |letter|
+      esperanto_alphabet.index(letter)
+    end
+  end
 end
